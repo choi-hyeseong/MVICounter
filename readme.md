@@ -14,4 +14,4 @@ MVI 패턴을 이용한 카운터 애플리케이션
 ### Flow
 * StateFlow - 뷰 상태 관리. 1개이상 = 상태유지
 * SharedFlow - vm에게 데이터 전달. 0개이상 = 데이터 전달
-* Channel - Cold-Stream, 이벤트 전달에 적합함(view가 consume하지 않으면 대기) = 확실한 이벤트 전달
+* Channel - Hot-Stream, 이벤트 전달에 적합함
